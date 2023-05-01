@@ -1,0 +1,42 @@
+
+.ul{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.form-bg{
+    padding: 30px;
+     
+    font-family: sans-serif;
+    font-style: normal;
+}
+label{
+    margin-right: 16px;
+}
+input{
+    border-color: #E2E2E2;
+    border-width: 1px;
+    border-radius: 4px;
+    height: 25px;
+    box-shadow: 0 0 3pt 0.5pt #D3D3D3;
+    outline: none;
+    flex-grow: 1;
+}
+li{
+    margin-bottom: 10px;
+    width: 30%;
+    display:flex;
+    align-items: center;
+    margin:18px
+}
+.drop-down{
+    margin-right: 5px;
+}
+ 
+*{
+    /* border: solid 1px black; */
+}
